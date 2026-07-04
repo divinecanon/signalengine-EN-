@@ -3,7 +3,7 @@ description: >-
   Signal for LLM: runtime state modulation layer for large language models
   via a Modulator component.
 url: "https://divinecanon.github.io"
-baseurl: "/signalengine-EN-"
+baseurl: "/signalengine-EN-/_post"
 theme: jekyll-theme-minima
 markdown: kramdown
 plugins:
