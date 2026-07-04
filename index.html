@@ -26,7 +26,6 @@
             min-height: 100vh;
         }
 
-        /* Sidebar */
         .sidebar {
             width: 280px;
             background: var(--sidebar-bg);
@@ -88,7 +87,6 @@
             text-align: center;
         }
 
-        /* Main Content */
         .main-content {
             flex: 1;
             margin-left: 280px;
@@ -118,7 +116,6 @@
             line-height: 1.6;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .sidebar { display: none; }
             .main-content { margin-left: 0; padding: 24px; }
@@ -127,42 +124,40 @@
 </head>
 <body>
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <i class="fas fa-satellite-dish"></i>
-            <h1>SignalEngine</h1>
-        </div>
+<aside class="sidebar">
+    <div class="sidebar-header">
+        <i class="fas fa-satellite-dish"></i>
+        <h1>SignalEngine</h1>
+    </div>
 
-        <div class="nav-links">
-            <div class="nav-section-title">Core Protocol</div>
-            <a href="./Signal%20for%20LLM.md"><i class="fas fa-file-alt"></i> Signal for LLM</a>
-            
-            <div class="nav-section-title">TGR Framework</div>
-            <a href="#"><i class="fas fa-cogs"></i> TGR Overview</a>
-            <a href="#"><i class="fas fa-wave-square"></i> Signal Flow</a>
-            <a href="#"><i class="fas fa-project-diagram"></i> Topology</a>
+    <div class="nav-links">
+        <div class="nav-section-title">Core Protocol</div>
+        <a href="./Signal%20for%20LLM.md"><i class="fas fa-file-alt"></i> Signal for LLM</a>
 
-            <div class="nav-section-title">System</div>
-            <a href="#"><i class="fas fa-code-branch"></i> Changelog</a>
-            <a href="#"><i class="fas fa-question-circle"></i> FAQ</a>
-        </div>
-    </aside>
+        <div class="nav-section-title">TGR Framework</div>
+        <a href="./TGR%20-%20Signal%20Flow%20Specification.md"><i class="fas fa-wave-square"></i> Signal Flow</a>
+        <a href="./TGR%20-%20Topology%20Primer.md"><i class="fas fa-project-diagram"></i> Topology Primer</a>
+        <a href="./TGR%20-%20Relational%20Logic.md"><i class="fas fa-link"></i> Relational Logic</a>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <section class="hero">
-            <h2>SignalEngine / TGR</h2>
-            <p>
-                Documentation hub for Signal Engineering and the TGR (Time-Graph-Relativity) framework.<br>
-                Navigate via the sidebar or click the links below.
-            </p>
-        </section>
+        <div class="nav-section-title">System</div>
+        <a href="./CHANGELOG.md"><i class="fas fa-code-branch"></i> Changelog</a>
+        <a href="./FAQ.md"><i class="fas fa-question-circle"></i> FAQ</a>
+    </div>
+</aside>
 
-        <div style="color: var(--text-secondary); font-size: 14px; text-align: center; margin-top: 60px;">
-            Powered by GitHub Pages & Termux 🚀
-        </div>
-    </main>
+<main class="main-content">
+    <section class="hero">
+        <h2>SignalEngine / TGR</h2>
+        <p>
+            Documentation hub for Signal Engineering and the TGR<br>
+            (Time–Graph–Relativity) framework.
+        </p>
+    </section>
+
+    <div style="color: var(--text-secondary); font-size: 14px; text-align: center; margin-top: 60px;">
+        Powered by GitHub Pages & Termux 🚀
+    </div>
+</main>
 
 </body>
 </html>
